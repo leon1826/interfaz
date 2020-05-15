@@ -6,6 +6,7 @@
 package app;
 
 import app.VentanPrincipal.VentanaPrincipal;
+import app.login.LoginTemplate;
 
 /**
  *
@@ -18,8 +19,9 @@ public class App {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        VentanaPrincipal ventana = new VentanaPrincipal();
-        ventana.saludar();
+//        VentanaPrincipal ventana = new VentanaPrincipal();
+//        ventana.saludar();
+          LoginTemplate login =  new LoginTemplate();
     }
     
 }

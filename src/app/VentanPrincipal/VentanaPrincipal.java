@@ -27,6 +27,7 @@ public class VentanaPrincipal extends JFrame{
         this.setLocationRelativeTo(this);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         //*.setUndecorated(true);*/
+        
         this.setVisible(true);
     }
     
